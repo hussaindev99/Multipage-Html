@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+<body>
+    <div class="navimg">
+        <img src="./imge1/setld-d3 (1)_page-0012.png" alt="">
+        <img src="./imge1/setld-d3 (1)_page-0001.png" alt="">
+    </div>
+    <div style="display: flex; justify-content: space-around;">
+<div class="maindiv">
+    
+    <div>
+        <p class="loginpag">Payment Info</p>
+    </div>
+    <div>
+        <form action="/action_page.php" method="get">
+            <label for="text">Card Holder Name</label><br><br>
+            <input type="text" id="text" name="text" placeholder="Ex-John Doe" class="input12"><br><br>
+            <label for="idNumber">Card Number</label><br><br>
+            <input type="idnumber" id="idnumber" name=" idnumber" placeholder="4111 1111 1111 xxx" class="input12"><br><br>
+          </form>
+        </div>
+        <div style="display: flex;">
+            <form action="/action_page.php" method="get">
+                <label for="text">Valid Till</label><br><br>
+                <input type="text" id="text" name="text" placeholder="11/25" class="input112"><br><br>
+              </form>
+              <form action="/action_page.php" method="get">
+                <label for="text" style="padding-left: 20px;">CVV</label><br><br>
+                <input type="text" id="text" name="text" placeholder="xxx" class="input1121"><br><br>
+              </form>
+        </div>
+        <input type="submit" value="Pay Me" class="signbutton">
+
+        <p class="donttxt">
+            Total Payable Amount: 
+            <a href="#" class="p90">$90</a>
+          </p>
+        </div>
+        <img src="./imge1/1213213.png" alt="" class="voltimg">
+    </div>
+</body>
+</html>

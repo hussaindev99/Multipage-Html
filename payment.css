@@ -1,0 +1,108 @@
+body{
+    align-items: center;
+}
+
+.navimg {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.loginpag {
+    color: #448790;
+    font-family: Neulis Alt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.signbutton {
+    width: 275px;
+    height: 45px;
+    color: #FFF;
+    font-family: Neulis Alt;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+    background: #448790;
+    box-shadow: 2px 4px 14px 0px rgba(68, 135, 144, 0.32);
+    margin-left: 50px;
+}
+
+.input12 {
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D4E2E4;
+    width: 356px;
+    height: 40px;
+    background: #FFF;
+    outline: none;
+}
+
+.input112 {
+    width: 207px;
+    height: 30px;
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D4E2E4;
+    background: #FFF;
+    outline: none;
+}
+
+.input1121 {
+    width: 104px;
+    height: 30px;
+    margin-left: 20px;
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D4E2E4;
+    background: #FFF;
+    outline: none;
+}
+
+.donttxt {
+    margin-top: 15px;
+    text-align: center;
+}
+.p90{
+    text-decoration: none;
+
+}
+.maindiv {
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border-top: 1px solid #C5DDE0;
+    border-right: 1px solid #C5DDE0;
+    border-bottom: 3px solid #C5DDE0;
+    border-left: 1px solid #C5DDE0;
+    width: 400px;
+    height: 640px;
+    flex-shrink: 0;
+    padding: 20px 50px;
+}
+
+.voltimg {
+    height: 700px;
+    width: 500px;
+    border-radius: 20px 0px 0px 20px;
+}
